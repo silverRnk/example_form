@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scam Coin || Sign up</title>
+
+    <!-- favicon -->
+    <link rel="icon" href="./assets/Coin.svg" type="image/x-icon" />
+
+    <!-- normalize -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+    <!-- main -->
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+<body>
+
+    <main>
+        <div class="page-1">
+            <div class="image-area">
+                <img src="assets/Unspash.png"
+                 alt="img">
+            </div>
+
+            <div class="text-area">
+
+                <blockquote class="qoute">
+                    <h1>
+                        "We will scam you harder <br>
+                        and better" - Lorem Ipsum
+                    </h1>
+                </blockquote>
+
+                <div class="sign-up-btn">
+                    <a href="#signup-form">
+                        <span class="">Sign Up</span>
+                    </a>
+                </div>
+
+                <div class="logo">
+                    <img src="assets/Logo.svg" alt="logo">
+                </div>
+            </div>
+        </div>
+
+        <div class="page-2" >
+            <div class="form-area">
+                <div class="form-header">
+                    Ready to be scam, sign up now
+                </div>
+
+                <form id="signup-form" action="blob.com" class="form-body" method="post" autocomplete="on">
+                    <div class="reminder">
+                        * Required
+                    </div>
+                    <div class="field-section" id="username-field">
+                        <label for="username">Username*</label>
+                        <input type="text" name="user_name" id="username" minlength="4" maxlength="30" 
+                        required
+                        title="must be between 4 to 30 characters only">
+
+                    </div>
+                    <div class="field-section" id="email-field">
+                        <label for="email">Email*</label>
+                        <input type="email" name="user_email" id="email" required>
+                    </div>
+                    <div class="field-section">
+                        <label for="user-password">Password*</label>
+                        <input type="password" id="user-password" name="password" required
+                        minlength="4" maxlength="20" title="must be in between 4 to 20 characters only.
+                        &nbsp; And must containt at least one number and one special character (e.g. !@#$%)" >
+                    </div>
+                    <div class="field-section">
+                        <label for="confirm-password">
+                            Confirm Password*
+                        </label>
+                        <input type="password" id="confirm-password" required>
+                    </div>
+                    <div class="field-row">
+                        <div class="field-section">
+                            <label for="first-name">First Name*</label>
+                            <input type="text" id="first-name" name="first_name" required>
+                        </div>
+                        <div class="field-section">
+                            <label for="last-name">Last Name*</label>
+                            <input type="text" id="last-name" name="last_name" required>
+                        </div>
+                    </div>
+                    <div class="field-row" id="date-of-birth-and-sex-field">
+                        <div class="field-section">
+                            <label for="date-of-birth">Date Of Birth*</label>
+                            <input type="date" id="date-of-birth" name="birthday" required>
+                        </div>
+                        <div class="field-section">
+                            <label for="sex">Sex*</label>
+                            <div class="radio-btn">
+                                <div id="sex">
+                                    <input type="radio" id="male-radio-btn" name="user_sex" required>
+                                    <label for="male-radio-btn">Male</label>
+                                </div>
+                                <div id="sex">
+                                    <input type="radio" id="female-radio-btn" name="user_sex" required>
+                                    <label for="female-radio-btn">Female</label>
+                                </div>
+
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="field-section" id="credit-card-field">
+                        <label for="ccn">Credit Card No*</label>
+                        <input type="tel" id="ccn" name="credit_card_no" required
+                            inputmode="numeric" pattern="[0-9]{4}\s[0-9]{4}\s[0-9]{4}\s[0-9]{4}" autocomplete="cc-number"
+                            maxlength="19" placeholder="xxxx xxxx xxxx xxxx"
+                            title="Please enter your Credit Card Number in xxxx xxxx xxxx xxxx format" >
+                    </div>
+                    <div class="field-section" id="social-security-field">
+                        <label for="social-security-no">Social Security No*</label>
+                        <input type="text" id="social-security-no" name="social_security_no" required
+                            inputmode="numeric" pattern="[0-9\s]{11}" maxlength="11"
+                            placeholder="xxx xx xxxx">
+                    </div>
+
+                    <div class="user-terms-and-condition-agreement">
+                        <input type="checkbox" id="user-terms-and-condition-agreement-chkbx" name="agreed" required>
+                        <label >I agree with
+                             <a href="">Terms and Condition</a></label>
+                    </div>
+
+                    <button type="submit">Sign up</button>
+
+                    <div class="login">
+                        Already have an account? <a href="">Login</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="page-footer">
+        <p>
+            &copy; Brought You By Scam Coin Ltd.
+        </p>
+    </footer>
+    
+
+    
+</body>
+</html>
